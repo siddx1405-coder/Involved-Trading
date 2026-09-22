@@ -12,8 +12,8 @@ export const companyInfo = {
 export const services = [
   {
     id: "herringbone",
-    title: "Herringbone (Zig - Zag) Flooring with Installation",
-    image: "/assets/img3.jpg",
+    title: "Spc Waterproof Herringbone (Zig - Zag) Flooring with Installation",
+    image: "/assets/img10.jpg", // Swapped to img10.jpg
   },
   {
     id: "laminate",
@@ -32,20 +32,20 @@ export const services = [
   },
   {
     id: "spc-chevron",
-    title: "Spc Waterproof Chevron Flooring With Installation",
-    image: "/assets/img10.jpg",
+    title: "Spc Waterproof Chevron Flooring with Installation",
+    image: "/assets/img3.jpg", // Swapped to img3.jpg
   },
 ];
 
 export const galleryImages = [
   { id: 1, src: "/assets/img1.jpg", title: "Flooring Samples" },
   { id: 2, src: "/assets/img2.jpg", title: "White Fiber Skirting" },
-  { id: 3, src: "/assets/img3.jpg", title: "Herringbone Flooring" },
+  { id: 3, src: "/assets/img3.jpg", title: "Chevron Flooring" },
   { id: 4, src: "/assets/img4.jpg", title: "Flooring Installation" },
   { id: 5, src: "/assets/img5.jpg", title: "SPC Waterproof Flooring" },
   { id: 6, src: "/assets/img6.jpg", title: "Waterproof Test" },
   { id: 7, src: "/assets/img7.jpg", title: "Straight Flooring" },
   { id: 8, src: "/assets/img8.jpg", title: "Zig-Zag Flooring" },
   { id: 9, src: "/assets/img9.jpg", title: "Company Logo" },
-  { id: 10, src: "/assets/img10.jpg", title: "Chevron Flooring" },
+  { id: 10, src: "/assets/img10.jpg", title: "Herringbone Flooring" },
 ];

@@ -75,7 +75,7 @@ export default function Hero() {
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80" />
-                  <span className="absolute bottom-3 left-3 text-xs font-semibold text-amber-300">Herringbone Zig-Zag</span>
+                  <span className="absolute bottom-3 left-3 text-xs font-semibold text-amber-300">Spc Waterproof Chevron Flooring</span>
                 </div>
                 <div className="relative group overflow-hidden rounded-2xl border border-slate-800 shadow-2xl">
                   <img
