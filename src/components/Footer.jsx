@@ -71,17 +71,7 @@ export default function Footer() {
           <div>
             © {new Date().getFullYear()} {companyInfo.name}. All rights reserved.
           </div>
-          <div>
-            Made by{' '}
-            <a
-              href="https://www.xenosysweb.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-400 font-semibold hover:underline hover:text-amber-300 transition-colors"
-            >
-              xenosysweb
-            </a>
-          </div>
+          
         </div>
       </div>
 
