@@ -1,8 +1,8 @@
 export const companyInfo = {
   name: "INVOLVED TRADING & CONTRACTING W.L.L",
   shortName: "INVOLVED",
-  phone: "+974 30815132",
-  whatsapp: "97430815132",
+  phone: "+974 30757174",
+  whatsapp: "97430757174",
   email: "vinylflooring002@gmail.com",
   location: "Qatar",
   currency: "QAR",
