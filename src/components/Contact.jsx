@@ -153,7 +153,7 @@ export default function Contact() {
                   <input
                     type="tel"
                     required
-                    placeholder="+974 30757174"
+                    placeholder="+974 30815132"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl p-3 focus:outline-none focus:border-amber-400"

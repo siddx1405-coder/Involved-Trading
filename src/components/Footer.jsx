@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquare, Phone, Mail, ShieldCheck } from 'lucide-react';
+import { MessageSquare, Phone, Mail, ShieldCheck, Code2 } from 'lucide-react';
 import { companyInfo } from '../data';
 
 export default function Footer() {
@@ -72,6 +72,26 @@ export default function Footer() {
             © {new Date().getFullYear()} {companyInfo.name}. All rights reserved.
           </div>
           
+          {/* Developer Credit for Xenosys Qatar */}
+          <div className="flex flex-wrap items-center gap-1.5 text-slate-400">
+            <Code2 className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+            <span>Developed by</span>
+            <a 
+              href="https://Xenosysweb.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-amber-400 hover:underline font-semibold"
+            >
+              @Xenosys Qatar
+            </a>
+            <span className="text-slate-600">•</span>
+            <a 
+              href="tel:+97470643918" 
+              className="hover:text-amber-400 transition-colors"
+            >
+              +974 7064 3918
+            </a>
+          </div>
         </div>
       </div>
 

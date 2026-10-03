@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck, Sparkles, MessageSquare, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Sparkles, MessageSquare, CheckCircle2, Building2 } from 'lucide-react';
 import { companyInfo } from '../data';
 
 export default function Hero() {
@@ -15,10 +15,19 @@ export default function Hero() {
           {/* Left Text Column */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             
-            {/* Promo Tag */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wide">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Premium Qatar Flooring & Professional Fitting</span>
+            {/* Badges Container */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
+              {/* Promo Tag */}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wide">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Premium Qatar Flooring & Professional Fitting</span>
+              </div>
+
+              {/* CR Badge */}
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-700/80 text-slate-300 text-xs font-semibold tracking-wide">
+                <Building2 className="w-3.5 h-3.5 text-slate-400" />
+                <span>CR No: <strong className="text-white">193166</strong></span>
+              </div>
             </div>
 
             {/* Main Headline */}
@@ -59,8 +68,6 @@ export default function Hero() {
                 <span>Get Instant Quote</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
-
-              
             </div>
           </div>
 
